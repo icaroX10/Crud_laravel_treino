@@ -1,0 +1,46 @@
+.header{
+    padding: 30px 50px;
+    background: #898991;
+}
+.logo{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+}
+.menu li{
+    border-top: 2px solid rgba(0,0,0,0.5);
+}
+.menu li >a{
+    padding: 20px 100px;
+    width: 100%;
+    color: #000;
+    display: inline-block;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+}
+.menu li>a:hover{
+    background: rgba(0,0,0,0.2);
+    color: #fff;
+}
+.menu li:first-child{
+    border-top:none;
+}
+.form_creat{
+    width: 500px;
+}
+.form_creat>input{
+    width: 100%;
+    margin: 10px 0;
+}
+.form_creat input[type='submit']{
+    font-size: 25px;
+    height: 50px;
+    background: #000;
+    color: #fff;
+    border-radius: 0;
+    border: none;
+    text-transform: uppercase;
+}
